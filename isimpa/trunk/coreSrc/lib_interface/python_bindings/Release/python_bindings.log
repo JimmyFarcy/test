@@ -1,9 +1,0 @@
-﻿Build started 14/03/2014 08:15:19.
-     1>Project "D:\nan_stage_lae\Desktop\isimpa\isimpa\trunk\coreSrc\lib_interface\python_bindings\python_bindings.vcxproj" on node 2 (clean target(s)).
-     1>_PrepareForClean:
-         Deleting file "Release\python_bindings.lastbuildstate".
-     1>Done Building Project "D:\nan_stage_lae\Desktop\isimpa\isimpa\trunk\coreSrc\lib_interface\python_bindings\python_bindings.vcxproj" (clean target(s)).
-
-Build succeeded.
-
-Time Elapsed 00:00:00.03
