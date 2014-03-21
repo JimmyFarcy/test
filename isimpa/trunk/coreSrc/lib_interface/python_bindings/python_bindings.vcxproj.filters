@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers sources\srclib">
+      <UniqueIdentifier>{ccfbac22-f22c-4319-a20c-dba6fa9c7e87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\srclib\input_output">
+      <UniqueIdentifier>{82d65835-8137-4a03-96c5-db7a4e0cef1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\srclib\input_output\gabe">
+      <UniqueIdentifier>{861af875-9591-41fb-ab2e-316822757a96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\srclib\input_output\exportRecepteurSurf">
+      <UniqueIdentifier>{9b05699e-6c47-4d77-a7e8-547c5b5d1463}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\srclib\input_output\particles">
+      <UniqueIdentifier>{e32eed20-67d9-4717-a961-53427f5e09ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\srclib\data_manager">
+      <UniqueIdentifier>{1ba6187b-6a75-4e21-8487-633fad72f22e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\srclib\data_manager\propa">
+      <UniqueIdentifier>{ae5fbe7b-130b-44ee-88bb-3f06f1d6cea7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\srclib\tools">
+      <UniqueIdentifier>{979dc55a-cb8a-4f44-8d63-d95e84c08543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\tools">
+      <UniqueIdentifier>{8fbd6b9a-966a-48ce-99ca-9d609fb801ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="_libsimpa.py.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\std_tools.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\coreinitialisation.cpp">
+      <Filter>Fichiers sources\srclib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\coreString.cpp">
+      <Filter>Fichiers sources\srclib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\coreTypes.cpp">
+      <Filter>Fichiers sources\srclib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\input_output\basereportmanager.cpp">
+      <Filter>Fichiers sources\srclib\input_output</Filter>
+    </ClCompile>
+    <ClCompile Include="..\input_output\bin.cpp">
+      <Filter>Fichiers sources\srclib\input_output</Filter>
+    </ClCompile>
+    <ClCompile Include="..\input_output\cxml.cpp">
+      <Filter>Fichiers sources\srclib\input_output</Filter>
+    </ClCompile>
+    <ClCompile Include="..\input_output\importExportMaillage\mbin.cpp">
+      <Filter>Fichiers sources\srclib\input_output</Filter>
+    </ClCompile>
+    <ClCompile Include="..\input_output\gabe\gabe.cpp">
+      <Filter>Fichiers sources\srclib\input_output\gabe</Filter>
+    </ClCompile>
+    <ClCompile Include="..\input_output\gabe\stdgabe.cpp">
+      <Filter>Fichiers sources\srclib\input_output\gabe</Filter>
+    </ClCompile>
+    <ClCompile Include="..\input_output\exportRecepteurSurf\rsbin.cpp">
+      <Filter>Fichiers sources\srclib\input_output\exportRecepteurSurf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\input_output\exportRecepteurSurf\std_rsbin.cpp">
+      <Filter>Fichiers sources\srclib\input_output\exportRecepteurSurf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\input_output\particles\part_io.cpp">
+      <Filter>Fichiers sources\srclib\input_output\particles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\data_manager\base_core_configuration.cpp">
+      <Filter>Fichiers sources\srclib\data_manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\data_manager\data_calculation\Celerite_du_son.cpp">
+      <Filter>Fichiers sources\srclib\data_manager\propa</Filter>
+    </ClCompile>
+    <ClCompile Include="..\data_manager\data_calculation\Coef_Att_Atmos.cpp">
+      <Filter>Fichiers sources\srclib\data_manager\propa</Filter>
+    </ClCompile>
+    <ClCompile Include="..\data_manager\data_calculation\Masse_volumique_air.cpp">
+      <Filter>Fichiers sources\srclib\data_manager\propa</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tools\octree44.cpp">
+      <Filter>Fichiers sources\srclib\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tools\octree44_dotElement.cpp">
+      <Filter>Fichiers sources\srclib\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tools\octree44_segmentElement.cpp">
+      <Filter>Fichiers sources\srclib\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tools\octree44_sphereElement.cpp">
+      <Filter>Fichiers sources\srclib\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tools\octree44_triangleElement.cpp">
+      <Filter>Fichiers sources\srclib\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tools\surf_merging.cpp">
+      <Filter>Fichiers sources\srclib\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tools\vol_splitter.cpp">
+      <Filter>Fichiers sources\srclib\tools</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\input_output\progressionInfo.h">
+      <Filter>Fichiers sources\srclib\input_output</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dummy.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="docs\libsimpa_docs.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="..\input_output\gabe\stdgabe.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tools\surf_merging.hpp">
+      <Filter>Fichiers d%27en-tête\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tools\vol_splitter.hpp">
+      <Filter>Fichiers d%27en-tête\tools</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

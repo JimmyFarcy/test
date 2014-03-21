@@ -1,0 +1,293 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers d%27en-têtes">
+      <UniqueIdentifier>{8cc3ed70-75cc-4708-ab8a-732b4e971220}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-têtes\Core">
+      <UniqueIdentifier>{2e9848b4-3c10-40b3-bb61-455b2f0d6fb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-têtes\data_manager">
+      <UniqueIdentifier>{59fff450-6a1e-4c26-b6e8-4d4ccff1adb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-têtes\data_manager\data_calculation">
+      <UniqueIdentifier>{8d098db4-6d5b-493d-ad03-a0a16c879387}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-têtes\input_output">
+      <UniqueIdentifier>{8b4c3414-361a-4878-97fd-1f9929fe299a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-têtes\input_output\exportRecepteurSurf">
+      <UniqueIdentifier>{536f766d-b3f2-4915-954b-9ae73ee2931b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-têtes\input_output\gabe">
+      <UniqueIdentifier>{2883c7dc-0b15-4e28-8119-228af51955be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-têtes\input_output\importExportMaillage">
+      <UniqueIdentifier>{27b36775-0df8-40e6-8b1d-cb7c32a5f273}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-têtes\input_output\utf8">
+      <UniqueIdentifier>{f37bdbcc-da0d-4c27-b986-932cc69e6e6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-têtes\input_output\particles">
+      <UniqueIdentifier>{7b2ee743-7284-48dd-bc45-0b283aef8375}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-têtes\input_output\ply">
+      <UniqueIdentifier>{bdf46987-4a55-468c-97aa-af199b14dcaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-têtes\tools">
+      <UniqueIdentifier>{4e9ae1a6-ca82-46a8-828a-397b9b5e9dd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Fichiers sources\Core">
+      <UniqueIdentifier>{c7e16c4e-9f76-41de-ab8b-afe30b900c6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\data_manager">
+      <UniqueIdentifier>{6607e493-2f91-4d2f-859f-796dd36d40bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\data_manager\data_calculation">
+      <UniqueIdentifier>{6b1cd185-c6ef-4f64-b4cf-c46467bab088}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\input_output">
+      <UniqueIdentifier>{b8e429e5-d010-44d3-8745-32cb03cab3de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\input_output\exportRecepteurSurf">
+      <UniqueIdentifier>{7953006c-c410-4f44-8012-d2170249357f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\input_output\gabe">
+      <UniqueIdentifier>{917b96a2-e882-4a9a-a85a-4b62f159f56b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\input_output\importExportMaillage">
+      <UniqueIdentifier>{588e8736-3eba-4ca3-a757-d9cf4ad31b3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\input_output\utf8">
+      <UniqueIdentifier>{38d54004-c7c8-43b3-9cc2-42538c306470}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\input_output\particles">
+      <UniqueIdentifier>{138225c1-9dd6-49d1-9370-d71d1196889b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\input_output\ply">
+      <UniqueIdentifier>{65d1ddee-29e3-41c8-8993-b409ffa23b39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\tools">
+      <UniqueIdentifier>{195f84ce-a675-4b72-a327-23208481785e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="coreInitialisation.h">
+      <Filter>Fichiers d%27en-têtes</Filter>
+    </ClInclude>
+    <ClInclude Include="coreString.h">
+      <Filter>Fichiers d%27en-têtes</Filter>
+    </ClInclude>
+    <ClInclude Include="coreTypes.h">
+      <Filter>Fichiers d%27en-têtes</Filter>
+    </ClInclude>
+    <ClInclude Include="en_numeric.hpp">
+      <Filter>Fichiers d%27en-têtes</Filter>
+    </ClInclude>
+    <ClInclude Include="std_tools.hpp">
+      <Filter>Fichiers d%27en-têtes</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\mathlib.h">
+      <Filter>Fichiers d%27en-têtes\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Model3D.h">
+      <Filter>Fichiers d%27en-têtes\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="data_manager\base_core_configuration.h">
+      <Filter>Fichiers d%27en-têtes\data_manager</Filter>
+    </ClInclude>
+    <ClInclude Include="data_manager\data_calculation\calculsPropagation.h">
+      <Filter>Fichiers d%27en-têtes\data_manager\data_calculation</Filter>
+    </ClInclude>
+    <ClInclude Include="input_output\basereportmanager.h">
+      <Filter>Fichiers d%27en-têtes\input_output</Filter>
+    </ClInclude>
+    <ClInclude Include="input_output\bin.h">
+      <Filter>Fichiers d%27en-têtes\input_output</Filter>
+    </ClInclude>
+    <ClInclude Include="input_output\cxml.h">
+      <Filter>Fichiers d%27en-têtes\input_output</Filter>
+    </ClInclude>
+    <ClInclude Include="input_output\progressionInfo.h">
+      <Filter>Fichiers d%27en-têtes\input_output</Filter>
+    </ClInclude>
+    <ClInclude Include="input_output\utf8.h">
+      <Filter>Fichiers d%27en-têtes\input_output</Filter>
+    </ClInclude>
+    <ClInclude Include="input_output\exportRecepteurSurf\rsbin.h">
+      <Filter>Fichiers d%27en-têtes\input_output\exportRecepteurSurf</Filter>
+    </ClInclude>
+    <ClInclude Include="input_output\exportRecepteurSurf\std_rsbin.hpp">
+      <Filter>Fichiers d%27en-têtes\input_output\exportRecepteurSurf</Filter>
+    </ClInclude>
+    <ClInclude Include="input_output\gabe\gabe.h">
+      <Filter>Fichiers d%27en-têtes\input_output\gabe</Filter>
+    </ClInclude>
+    <ClInclude Include="input_output\gabe\stdgabe.h">
+      <Filter>Fichiers d%27en-têtes\input_output\gabe</Filter>
+    </ClInclude>
+    <ClInclude Include="input_output\importExportMaillage\m_report_bin.h">
+      <Filter>Fichiers d%27en-têtes\input_output\importExportMaillage</Filter>
+    </ClInclude>
+    <ClInclude Include="input_output\importExportMaillage\mbin.h">
+      <Filter>Fichiers d%27en-têtes\input_output\importExportMaillage</Filter>
+    </ClInclude>
+    <ClInclude Include="input_output\utf8\checked.h">
+      <Filter>Fichiers d%27en-têtes\input_output\utf8</Filter>
+    </ClInclude>
+    <ClInclude Include="input_output\utf8\core.h">
+      <Filter>Fichiers d%27en-têtes\input_output\utf8</Filter>
+    </ClInclude>
+    <ClInclude Include="input_output\utf8\unchecked.h">
+      <Filter>Fichiers d%27en-têtes\input_output\utf8</Filter>
+    </ClInclude>
+    <ClInclude Include="input_output\particles\part_binary.h">
+      <Filter>Fichiers d%27en-têtes\input_output\particles</Filter>
+    </ClInclude>
+    <ClInclude Include="input_output\particles\part_io.hpp">
+      <Filter>Fichiers d%27en-têtes\input_output\particles</Filter>
+    </ClInclude>
+    <ClInclude Include="input_output\ply\rply.h">
+      <Filter>Fichiers d%27en-têtes\input_output\ply</Filter>
+    </ClInclude>
+    <ClInclude Include="input_output\ply\rply_interface.hpp">
+      <Filter>Fichiers d%27en-têtes\input_output\ply</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\collision.h">
+      <Filter>Fichiers d%27en-têtes\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\octree44.hpp">
+      <Filter>Fichiers d%27en-têtes\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\octree44_cylinderElement.hpp">
+      <Filter>Fichiers d%27en-têtes\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\octree44_dotElement.hpp">
+      <Filter>Fichiers d%27en-têtes\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\octree44_segmentElement.hpp">
+      <Filter>Fichiers d%27en-têtes\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\octree44_sphereElement.hpp">
+      <Filter>Fichiers d%27en-têtes\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\octree44_triangleElement.hpp">
+      <Filter>Fichiers d%27en-têtes\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\surf_merging.hpp">
+      <Filter>Fichiers d%27en-têtes\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\vol_identifier.hpp">
+      <Filter>Fichiers d%27en-têtes\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\vol_splitter.hpp">
+      <Filter>Fichiers d%27en-têtes\tools</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="coreinitialisation.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="coreString.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="coreTypes.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="dummy.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="en_numeric.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="std_tools.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="data_manager\base_core_configuration.cpp">
+      <Filter>Fichiers sources\data_manager</Filter>
+    </ClCompile>
+    <ClCompile Include="data_manager\data_calculation\Celerite_du_son.cpp">
+      <Filter>Fichiers sources\data_manager\data_calculation</Filter>
+    </ClCompile>
+    <ClCompile Include="data_manager\data_calculation\Coef_Att_Atmos.cpp">
+      <Filter>Fichiers sources\data_manager\data_calculation</Filter>
+    </ClCompile>
+    <ClCompile Include="data_manager\data_calculation\Masse_volumique_air.cpp">
+      <Filter>Fichiers sources\data_manager\data_calculation</Filter>
+    </ClCompile>
+    <ClCompile Include="input_output\baseReportManager.cpp">
+      <Filter>Fichiers sources\input_output</Filter>
+    </ClCompile>
+    <ClCompile Include="input_output\bin.cpp">
+      <Filter>Fichiers sources\input_output</Filter>
+    </ClCompile>
+    <ClCompile Include="input_output\cxml.cpp">
+      <Filter>Fichiers sources\input_output</Filter>
+    </ClCompile>
+    <ClCompile Include="input_output\gpl_io.cpp">
+      <Filter>Fichiers sources\input_output</Filter>
+    </ClCompile>
+    <ClCompile Include="input_output\exportRecepteurSurf\rsbin.cpp">
+      <Filter>Fichiers sources\input_output\exportRecepteurSurf</Filter>
+    </ClCompile>
+    <ClCompile Include="input_output\exportRecepteurSurf\std_rsbin.cpp">
+      <Filter>Fichiers sources\input_output\exportRecepteurSurf</Filter>
+    </ClCompile>
+    <ClCompile Include="input_output\gabe\gabe.cpp">
+      <Filter>Fichiers sources\input_output\gabe</Filter>
+    </ClCompile>
+    <ClCompile Include="input_output\gabe\stdgabe.cpp">
+      <Filter>Fichiers sources\input_output\gabe</Filter>
+    </ClCompile>
+    <ClCompile Include="input_output\importExportMaillage\m_report_bin.cpp">
+      <Filter>Fichiers sources\input_output\importExportMaillage</Filter>
+    </ClCompile>
+    <ClCompile Include="input_output\importExportMaillage\mbin.cpp">
+      <Filter>Fichiers sources\input_output\importExportMaillage</Filter>
+    </ClCompile>
+    <ClCompile Include="input_output\particles\part_io.cpp">
+      <Filter>Fichiers sources\input_output\particles</Filter>
+    </ClCompile>
+    <ClCompile Include="input_output\ply\rply.c">
+      <Filter>Fichiers sources\input_output\ply</Filter>
+    </ClCompile>
+    <ClCompile Include="input_output\ply\rply_interface.cpp">
+      <Filter>Fichiers sources\input_output\ply</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\octree44.cpp">
+      <Filter>Fichiers sources\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\octree44_cylinderElement.cpp">
+      <Filter>Fichiers sources\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\octree44_dotElement.cpp">
+      <Filter>Fichiers sources\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\octree44_segmentElement.cpp">
+      <Filter>Fichiers sources\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\octree44_sphereElement.cpp">
+      <Filter>Fichiers sources\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\octree44_triangleElement.cpp">
+      <Filter>Fichiers sources\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\surf_merging.cpp">
+      <Filter>Fichiers sources\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\vol_identifier.cpp">
+      <Filter>Fichiers sources\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\vol_splitter.cpp">
+      <Filter>Fichiers sources\tools</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

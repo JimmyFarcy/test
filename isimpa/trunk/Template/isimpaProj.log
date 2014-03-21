@@ -1,0 +1,12 @@
+﻿Build started 12/03/2014 16:56:25.
+     1>Project "D:\nan_stage_lae\Desktop\isimpa\isimpa\trunk\isimpaProj.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Template\isimpaProj.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       FinalizeBuildStatus:
+         Deleting file "Template\isimpaProj.unsuccessfulbuild".
+         Touching "Template\isimpaProj.lastbuildstate".
+     1>Done Building Project "D:\nan_stage_lae\Desktop\isimpa\isimpa\trunk\isimpaProj.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.20
